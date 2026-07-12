@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+header {
+    background-color: #f1f1f1;
+}
+
+nav {
+    background-color: #333;
+}
+
+main {
+    background-color: #ffffff;
+    font-size: 18px;
+}
+
+footer {
+    background-color: #e0e0e0;
+}
+
+li {
+    display: inline-block;
+    width: 20%;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    color: #2c3e50;
+}
+
+p {
+    line-height: 1.6;
+}
