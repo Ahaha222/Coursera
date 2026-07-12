@@ -85,3 +85,23 @@ img:hover {
     border-radius: 15px;
     border-color: #2980b9;
 }
+
+@media screen and (min-width: 768px) {
+    div {
+        width: 45%;
+        display: inline-block;
+        margin: 2%;
+        vertical-align: top;
+    }
+    
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    div {
+        width: 30%;
+    }
+}
