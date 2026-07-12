@@ -2,32 +2,36 @@
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <title>Trang Chủ - Folktronica</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Gallery - Folktronica</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body onload="initGallery()">
-    <a href="#main-content" class="skip-link">Skip to Main Content</a>
-    
+<body>
     <header>
-        <nav>
-            <ul class="nav-list">
-                <li><a href="index.html">Trang Chủ</a></li>
-                <li><a href="gallery.html">Bộ Sưu Tập Nhạc Cụ</a></li>
-                <li><a href="about.html">Giới Thiệu</a></li>
-            </ul>
-        </nav>
+        <h1>Bộ Sưu Tập Nhạc Cụ Giao Thoa</h1>
+        <p>Khám phá sự kết hợp giữa truyền thống và hiện đại</p>
     </header>
-
-    <main id="main-content">
-        <h1>Âm Nhạc Giao Thoa</h1>
-        <p>Chào mừng bạn đến với dự án kết hợp nhạc cụ truyền thống Việt Nam và âm nhạc điện tử hiện đại.</p>
-        <div id="image">
-            Hover over an image below to display here.
+    
+    <main class="gallery">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1460036521480-c4c508acfa92?w=500" alt="Đàn Tranh truyền thống Việt Nam">
+            <p>Đàn Tranh mang âm hưởng truyền thống sâu lắng, từng bước hòa nhịp cùng dòng chảy âm nhạc điện tử.</p>
         </div>
 
-        <img class="preview" src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=800" alt="Bàn mixer âm nhạc điện tử" onmouseover="upDate(this)" onmouseleave="undo()" onfocus="upDate(this)" onblur="undo()">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=500" alt="Đàn Bầu mộc mạc">
+            <p>Chỉ với một dây, Đàn Bầu tạo ra những luyến láy ảo diệu, làm điểm nhấn hoàn hảo cho các bản mix ambient.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=500" alt="Bàn Mixer Điện Tử">
+            <p>Bàn mixer hiện đại là trái tim của dự án, nơi kết nối và biến đổi các dải âm thanh dân tộc.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1520523839897-bd0b52f945a0?w=500" alt="Trống đồng cổ">
+            <p>Âm vang trầm hùng của trống đồng mang đến nhịp điệu dồn dập, mạnh mẽ cho các set nhạc trình diễn trực tiếp.</p>
+        </div>
     </main>
-    
-    <script src="script.js"></script>
 </body>
 </html>
